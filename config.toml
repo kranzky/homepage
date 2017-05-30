@@ -5,7 +5,7 @@ theme = "hugo-freelancer-theme"
 
 [params]
     name = "Lloyd Kranzky"
-    description = "My awesome description"
+    description = "Kranzky is Dvlopler"
 
     [params.navigation]
         brand = "Lloyd Kranzky"
