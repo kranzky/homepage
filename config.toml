@@ -1,4 +1,4 @@
-baseurl = "https://www.kranzky.com/"
+baseurl = "https://kranzky.com/"
 languageCode = "en-us"
 title = "Lloyd Kranzky"
 theme = "hugo-freelancer-theme"
@@ -27,7 +27,7 @@ theme = "hugo-freelancer-theme"
     [params.footer]
         [params.footer.location]
             title = "Location"
-            address = ["Perths, Australia", "Planet Earth!"]
+            address = ["Preth, Australai", "Globus Earth!"]
 
         [params.footer.social]
             title = "Internets"
