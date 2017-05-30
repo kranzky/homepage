@@ -1,0 +1,49 @@
+baseurl = "https://kranzky.com/"
+languageCode = "en-us"
+title = "Lloyd Kranzky"
+theme = "hugo-freelancer-theme"
+
+[params]
+    name = "Lloyd Kranzky"
+    description = "My awesome description"
+
+    [params.navigation]
+        brand = "Lloyd Kranzky"
+
+    [params.header]
+        image = "profile.png"
+        name = "Kranzky is Dvepoler"
+        subtitle = "Games - Jams - Webs - Blogs - Plumbeing"
+
+    [params.portfolio]
+        title = "Projects"
+
+        [params.portfolio.modal]
+            client = "Link"
+            date = "Date"
+            category = "Category"
+            buttontext = "Close"
+
+    [params.footer]
+        [params.footer.location]
+            title = "Location"
+            address = ["Perths, Australia", "Planet Earth!"]
+
+        [params.footer.social]
+            title = "Internets"
+            [[params.footer.social.networks]]
+                icon = "fa-envelope"
+                link = "mailto:jasonhutchens@gmail.com?Subject=Hello%20Kranzky"
+            [[params.footer.social.networks]]
+                icon = "fa-github"
+                link = "//github.com/jasonhutchens"
+            [[params.footer.social.networks]]
+                icon = "fa-linkedin"
+                link = "//linkedin.com/in/jasonhutchens"
+            [[params.footer.social.networks]]
+                icon = "fa-twitter"
+                link=  "//twitter.com/kranzky"
+
+        [params.footer.credits]
+            title = "About Kranzky"
+            text = "Little is known about this reclusive plumber from Eastern Europe."
