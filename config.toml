@@ -33,13 +33,10 @@ theme = "hugo-freelancer-theme"
             title = "Internets"
             [[params.footer.social.networks]]
                 icon = "fa-envelope"
-                link = "mailto:jasonhutchens@gmail.com?Subject=Hello%20Kranzky"
+                link = "mailto:lloyd@kranzky.com?Subject=Hello%20Kranzky"
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/jasonhutchens"
-            [[params.footer.social.networks]]
-                icon = "fa-linkedin"
-                link = "//linkedin.com/in/jasonhutchens"
+                link = "//github.com/kranzky"
             [[params.footer.social.networks]]
                 icon = "fa-twitter"
                 link=  "//twitter.com/kranzky"
