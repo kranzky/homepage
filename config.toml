@@ -27,7 +27,7 @@ theme = "hugo-freelancer-theme"
     [params.footer]
         [params.footer.location]
             title = "Location"
-            address = ["Preth, Australai", "Globus Earth!"]
+            address = ["Pert, Australi", "Globus Earth!"]
 
         [params.footer.social]
             title = "Internets"
