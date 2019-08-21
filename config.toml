@@ -149,7 +149,7 @@ theme = "prologue"
 [[params.projects3]]
   title = "Bogus Quest"
   alt = "xxx."
-  source = "img/portfolio/bogus_quest.jpg"
+  source = "img/portfolio/bogus_quest.png"
   url = "https://github.com/kranzky/xxx"
 
 # row 7
@@ -192,7 +192,7 @@ theme = "prologue"
   source = "img/portfolio/sweeper.png"
   url = "https://github.com/kranzky/xxx"
 
-# row 8
+# row 9
 
 [[params.projects1]]
   title = "Black & White"
