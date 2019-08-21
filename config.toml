@@ -1,46 +1,213 @@
 baseurl = "https://www.kranzky.com/"
 languageCode = "en-us"
-title = "Lloyd Kranzky"
+title = "Jason Hutchens"
 theme = "prologue"
 
 [params]
-    name = "Lloyd Kranzky"
-    description = "Kranzky is Dvlopler"
+  name = "Jason Hutchens"
+  description = "aka Lloyd Kranzky"
 
-    [params.navigation]
-        brand = "Lloyd Kranzky"
+[[params.social]]
+  medium = "medium"
+  icon = "medium"
+  link = "https://blog.kranzky.com"
 
-    [params.header]
-        image = "profile.png"
-        name = "Kranzky is Dvepoler"
-        subtitle = "Games - Jams - Webs - Blogs - Plumbeing"
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/kranzky"
 
-    [params.portfolio]
-        title = "Projects"
+[[params.social]]
+  medium = "stackoverflow"
+  icon = "stack-overflow"
+  link = "https://stackoverflow.com/users/5442/kranzky?tab=profile"
 
-        [params.portfolio.modal]
-            client = "Link"
-            date = "Date"
-            category = "Category"
-            buttontext = "Close"
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/jasonhutchens"
 
-    [params.footer]
-        [params.footer.location]
-            title = "Location"
-            address = ["Pert, Australi", "Globus Earth!"]
+[[params.social]]
+  medium = "youtube"
+  icon = "youtube"
+  link = "https://www.youtube.com/channel/UC5fbLdfUtTaHpL2qbQtW2rg"
 
-        [params.footer.social]
-            title = "Internets"
-            [[params.footer.social.networks]]
-                icon = "fa-envelope"
-                link = "mailto:lloyd@kranzky.com?Subject=Hello%20Kranzky"
-            [[params.footer.social.networks]]
-                icon = "fa-github"
-                link = "//github.com/kranzky"
-            [[params.footer.social.networks]]
-                icon = "fa-twitter"
-                link=  "//twitter.com/kranzky"
+# row 1
 
-        [params.footer.credits]
-            title = "About Kranzky"
-            text = "Little is known about this reclusive plumber from Eastern Europe."
+[[params.projects1]]
+  title = "MegaHAL"
+  alt = "A learning chatterbot."
+  source = "img/portfolio/megahal.png"
+  url = "https://github.com/kranzky/megahal"
+
+[[params.projects2]]
+  title = "hackTILE"
+  alt = "A cellular automata game engine."
+  source = "img/portfolio/hacktile.gif"
+  url = "https://github.com/kranzky/hacktile"
+
+[[params.projects3]]
+  title = "Sesame"
+  alt = "A simple password manager for the command-line."
+  source = "img/portfolio/sesame.png"
+  url = "https://github.com/kranzky/sesame-cli"
+
+# row 2
+
+[[params.projects1]]
+  title = "FAQoverflow"
+  alt = "Great answers to interesting questions about everything"
+  source = "img/portfolio/faqoverflow.png"
+  url = "https://faqoverflow.kranzky.com"
+
+[[params.projects2]]
+  title = "National Eyeball"
+  alt = "xxx."
+  source = "img/portfolio/eyeball.png"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects3]]
+  title = "Statistical Me"
+  alt = "Discover how unique you really are."
+  source = "img/portfolio/statistical.png"
+  url = "https://statistical-me.kranzky.com"
+
+# row 3
+
+[[params.projects1]]
+  title = "rnDB"
+  alt = "xxx."
+  source = "img/portfolio/rndb.png"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects2]]
+  title = "Canard"
+  alt = "xxx."
+  source = "img/portfolio/canard.png"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects3]]
+  title = "d-Board"
+  alt = "xxx."
+  source = "img/portfolio/dboard.png"
+  url = "https://github.com/kranzky/xxx"
+
+# row 4
+
+[[params.projects1]]
+  title = "Nosedive"
+  alt = "Use your black mirror to rate all the things."
+  source = "img/portfolio/nosedive.png"
+  url = "https://nosedive.kranzky.com"
+
+[[params.projects2]]
+  title = "Aruma Room"
+  alt = "Control light and music with your hands."
+  source = "img/portfolio/arumaroom.png"
+  url = "https://github.com/kranzky/arumaroom"
+
+[[params.projects3]]
+  title = "Insoluble"
+  alt = "xxx."
+  source = "img/portfolio/insoluble.png"
+  url = "https://github.com/kranzky/xxx"
+
+# row 5
+
+[[params.projects1]]
+  title = "Sooth"
+  alt = "A simple stochastic predictive model."
+  source = "img/portfolio/sooth.png"
+  url = "https://rubygems.org/gems/sooth"
+
+[[params.projects2]]
+  title = "Soroban"
+  alt = "A calculating engine for Ruby that understands Excel formulas."
+  source = "img/portfolio/soroban.png"
+  url = "https://rubygems.org/gems/soroban"
+
+[[params.projects3]]
+  title = "Sangaku"
+  alt = "A geometry gem for Ruby for finding the pole of inaccessibility for a polygon."
+  source = "img/portfolio/sangaku.png"
+  url = "https://rubygems.org/gems/sangaku"
+
+# row 6
+
+[[params.projects1]]
+  title = "99 Sheep"
+  alt = "xxx."
+  source = "img/portfolio/99sheep.png"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects2]]
+  title = "Laggy Dash"
+  alt = "xxx."
+  source = "img/portfolio/laggydash.jpg"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects3]]
+  title = "Bogus Quest"
+  alt = "xxx."
+  source = "img/portfolio/bogus_quest.jpg"
+  url = "https://github.com/kranzky/xxx"
+
+# row 7
+
+[[params.projects1]]
+  title = "RockVomit"
+  alt = "A ragdol rhythym action game made for #GGJ17."
+  source = "img/portfolio/rockvomit.png"
+  url = "https://github.com/rocket-hands/rockvomit"
+
+[[params.projects2]]
+  title = "Dwarf Squad"
+  alt = "xxx."
+  source = "img/portfolio/dwarfsquad.jpg"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects3]]
+  title = "Brown Cloud"
+  alt = "xxx."
+  source = "img/portfolio/browncloud.jpg"
+  url = "https://github.com/kranzky/xxx"
+
+# row 8
+
+[[params.projects1]]
+  title = "Quantum Light Cycles"
+  alt = "xxx."
+  source = "img/portfolio/qlc.gif"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects2]]
+  title = "Refrax"
+  alt = "xxx."
+  source = "img/portfolio/refrax.png"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects3]]
+  title = "Soduku Sweeper"
+  alt = "xxx."
+  source = "img/portfolio/sweeper.png"
+  url = "https://github.com/kranzky/xxx"
+
+# row 8
+
+[[params.projects1]]
+  title = "Black & White"
+  alt = "xxx."
+  source = "img/portfolio/black.png"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects2]]
+  title = "L.A. Noire"
+  alt = "xxx."
+  source = "img/portfolio/noire.png"
+  url = "https://github.com/kranzky/xxx"
+
+[[params.projects3]]
+  title = "Interzone Futebol"
+  alt = "xxx."
+  source = "img/portfolio/interzone.png"
+  url = "https://github.com/kranzky/xxx"

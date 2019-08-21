@@ -23,7 +23,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="img/avatar.png" alt="" /></span>
 							<h1 id="title">{{ .Site.Params.name }}</h1>
 							<p>{{ .Site.Params.description }}</p>
 						</div>
@@ -44,11 +44,12 @@
 
 							-->
 							<ul>
-								<li><a href="http://foobar.tld" target="_blank" id="resume-link" class="skel-layers-ignoreHref"><span class="icon fa-file">Resume</span></a></li>
-								<li><a href="https://blog.kranzky.com" target="_blank" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-medium">Blog</span></a></li>
+								<li><a href="mailto:jasonhutchens@gmail.com" target="_blank" id="email-link" class="skel-layers-ignoreHref"><span class="icon fa-at"><pre>jasonhutchens@gmail.com</pre></span></a></li>
+								<li><a href="jason_hutchens.pdf" target="_blank" id="resume-link" class="skel-layers-ignoreHref"><span class="icon fa-download">resume.pdf</span></a></li>
 								<li><a href="https://kranzky.github.io" target="_blank" id="diary-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">Diary</span></a></li>
+								<li><a href="https://blog.kranzky.com" target="_blank" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-medium">Blog</span></a></li>
 								<li><a href="https://github.com/kranzky" target="_blank" id="github-link" class="skel-layers-ignoreHref"><span class="icon fa-github">GitHub</span></a></li>
-								<li><a href="https://stackoverflow.com/users/5442/kranzky" target="_blank" id="stackoverflow-link" class="skel-layers-ignoreHref"><span class="icon fa-stack-overflow">Stack Overflow</span></a></li>
+								<li><a href="https://stackoverflow.com/users/5442/kranzky?tab=profile" target="_blank" id="stackoverflow-link" class="skel-layers-ignoreHref"><span class="icon fa-stack-overflow">Stack Overflow</span></a></li>
 								<li><a href="https://www.linkedin.com/in/jasonhutchens" target="_blank" id="linkedin-link" class="skel-layers-ignoreHref"><span class="icon fa-linkedin">LinkedIn</span></a></li>
 								<li><a href="https://www.youtube.com/channel/UC5fbLdfUtTaHpL2qbQtW2rg" target="_blank" id="youtube-link" class="skel-layers-ignoreHref"><span class="icon fa-youtube">YouTube</span></a></li>
 							</ul>
@@ -61,7 +62,7 @@
 					<!-- Social Icons -->
 						<ul class="icons">
               {{ range .Site.Params.social }}
-              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+              <li><a href="{{ .link }}" target="_blank" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
               {{ end }}
 						</ul>
 
@@ -78,7 +79,10 @@
 
 							<header>
 								<h2 class="alt">G'day! I'm <strong>Jason Hutchens</strong>.</h2>
-								<p>... something about me ...</p>
+								<p>I'm an engineer specialising in startups, web development, game design and AI.<br/>
+                   I ❤️  Ruby and C, and have also worked professionally with JavaScript, Python and C++.</br>
+                   I also love Terry Pratchett and They Might Be Giants 😀</br>
+                   I work on interesting things 100% remotely from Perth, Western Australia.</p>
 							</header>
 
 						</div>
@@ -89,14 +93,15 @@
 						<div class="container">
 
 							<header>
-								<h2>Projects</h2>
+								<h2>Selected Projects</h2>
+                <p>This is a sampling of mostly public hobby projects I've worked on over my 25-year career.</p>
 							</header>
 
               <div class="row">
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.projects1 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a href="{{ .url }}" target="_blank" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
@@ -107,7 +112,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.projects2 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a href="{{ .url }}" target="_blank" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
@@ -118,7 +123,7 @@
                 <div class="4u 12u$(mobile)">
                   {{ range .Site.Params.projects3 }} 
                   <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <a href="{{ .url }}" target="_blank" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
                       <h3>{{ .title }}</h3>
                     </header>
