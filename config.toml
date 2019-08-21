@@ -55,50 +55,10 @@ theme = "prologue"
 # row 2
 
 [[params.projects1]]
-  title = "FAQoverflow"
-  alt = "Great answers to interesting questions about everything"
-  source = "img/portfolio/faqoverflow.png"
-  url = "https://faqoverflow.kranzky.com"
-
-[[params.projects2]]
-  title = "National Eyeball"
-  alt = "xxx."
-  source = "img/portfolio/eyeball.png"
-  url = "https://github.com/kranzky/xxx"
-
-[[params.projects3]]
-  title = "Statistical Me"
-  alt = "Discover how unique you really are."
-  source = "img/portfolio/statistical.png"
-  url = "https://statistical-me.kranzky.com"
-
-# row 3
-
-[[params.projects1]]
-  title = "rnDB"
-  alt = "xxx."
-  source = "img/portfolio/rndb.png"
-  url = "https://github.com/kranzky/xxx"
-
-[[params.projects2]]
-  title = "Canard"
-  alt = "xxx."
-  source = "img/portfolio/canard.png"
-  url = "https://github.com/kranzky/xxx"
-
-[[params.projects3]]
-  title = "d-Board"
-  alt = "xxx."
-  source = "img/portfolio/dboard.png"
-  url = "https://github.com/kranzky/xxx"
-
-# row 4
-
-[[params.projects1]]
   title = "Nosedive"
   alt = "Use your black mirror to rate all the things."
   source = "img/portfolio/nosedive.png"
-  url = "https://nosedive.kranzky.com"
+  url = "https://github.com/kranzky/nosedive"
 
 [[params.projects2]]
   title = "Aruma Room"
@@ -108,51 +68,71 @@ theme = "prologue"
 
 [[params.projects3]]
   title = "Insoluble"
-  alt = "xxx."
+  alt = "A machine-generated novel for NaNoGenMo."
   source = "img/portfolio/insoluble.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/insoluble"
+
+# row 3
+
+[[params.projects1]]
+  title = "rnDB"
+  alt = "A procedurally generated database of everyday things."
+  source = "img/portfolio/rndb.png"
+  url = "https://github.com/kranzky/rndb"
+
+[[params.projects2]]
+  title = "Canard"
+  alt = "A not-quite-proof-of-concept implementation of QDD."
+  source = "img/portfolio/canard.png"
+  url = "https://github.com/kranzky/canard"
+
+[[params.projects3]]
+  title = "d-Board"
+  alt = "A novel text input method for use with game controllers."
+  source = "img/portfolio/dboard.png"
+  url = "https://github.com/kranzky/d_board"
+
+# row 4
+
+[[params.projects1]]
+  title = "National Eyeball"
+  alt = "An Australia-wide visualisation of government data."
+  source = "img/portfolio/eyeball.png"
+  url = "https://github.com/kranzky/national_eyeball"
+
+[[params.projects2]]
+  title = "FAQoverflow"
+  alt = "Great answers to interesting questions about everything"
+  source = "img/portfolio/faqoverflow.png"
+  url = "https://faqoverflow.kranzky.com"
+
+[[params.projects3]]
+  title = "Statistical Me"
+  alt = "Discover how unique you really are."
+  source = "img/portfolio/statistical.png"
+  url = "https://statistical-me.kranzky.com"
 
 # row 5
 
 [[params.projects1]]
-  title = "Sooth"
-  alt = "A simple stochastic predictive model."
-  source = "img/portfolio/sooth.png"
-  url = "https://rubygems.org/gems/sooth"
-
-[[params.projects2]]
-  title = "Soroban"
-  alt = "A calculating engine for Ruby that understands Excel formulas."
-  source = "img/portfolio/soroban.png"
-  url = "https://rubygems.org/gems/soroban"
-
-[[params.projects3]]
-  title = "Sangaku"
-  alt = "A geometry gem for Ruby for finding the pole of inaccessibility for a polygon."
-  source = "img/portfolio/sangaku.png"
-  url = "https://rubygems.org/gems/sangaku"
-
-# row 6
-
-[[params.projects1]]
   title = "99 Sheep"
-  alt = "xxx."
+  alt = "Make friends of sheeps by scorching to reflect colour and then collect the match ones."
   source = "img/portfolio/99sheep.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/99sheep"
 
 [[params.projects2]]
   title = "Laggy Dash"
-  alt = "xxx."
+  alt = "A massively single-player infinite runner."
   source = "img/portfolio/laggydash.jpg"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/laggy_dash"
 
 [[params.projects3]]
   title = "Bogus Quest"
-  alt = "xxx."
+  alt = "A game of deception."
   source = "img/portfolio/bogus_quest.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/bogus_quest"
 
-# row 7
+# row 6
 
 [[params.projects1]]
   title = "RockVomit"
@@ -162,52 +142,52 @@ theme = "prologue"
 
 [[params.projects2]]
   title = "Dwarf Squad"
-  alt = "xxx."
+  alt = "Four dwarves, one controller."
   source = "img/portfolio/dwarfsquad.jpg"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/ggj14/dwarf-squad"
 
 [[params.projects3]]
   title = "Brown Cloud"
-  alt = "xxx."
+  alt = "Build a single brown cloud by collecting and spitting clouds of different colours."
   source = "img/portfolio/browncloud.jpg"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/brown_cloud"
 
-# row 8
+# row 7
 
 [[params.projects1]]
   title = "Quantum Light Cycles"
-  alt = "xxx."
+  alt = "An entry to the one-key / one-switch comp on Retro Remakes."
   source = "img/portfolio/qlc.gif"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/quantum_light_cycles"
 
 [[params.projects2]]
   title = "Refrax"
-  alt = "xxx."
+  alt = "A game inspired by the pause mode of Jeff Minter's Iridis Alpha."
   source = "img/portfolio/refrax.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/refrax"
 
 [[params.projects3]]
   title = "Soduku Sweeper"
   alt = "xxx."
   source = "img/portfolio/sweeper.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://github.com/kranzky/soduku_sweeper"
 
-# row 9
+# row 8
 
 [[params.projects1]]
   title = "Black & White"
-  alt = "xxx."
+  alt = "Black & White is a god video game developed by Lionhead Studios."
   source = "img/portfolio/black.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://www.youtube.com/watch?v=dm2kTfwT9HU"
 
 [[params.projects2]]
   title = "L.A. Noire"
-  alt = "xxx."
+  alt = "L.A. Noire is a neo-noir detective action-adventure video game developed by Team Bondi."
   source = "img/portfolio/noire.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://www.youtube.com/watch?v=xk69qfTRIgY"
 
 [[params.projects3]]
   title = "Interzone Futebol"
-  alt = "xxx."
+  alt = "Interzone Futebol is a massively multiplayer online game centered on futebol."
   source = "img/portfolio/interzone.png"
-  url = "https://github.com/kranzky/xxx"
+  url = "https://www.youtube.com/watch?v=wLFdv561Flo"
