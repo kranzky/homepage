@@ -2032,7 +2032,7 @@
 			}
 
 				#header .icons a:hover {
-					color: #fff;
+					color: #FFFF99;
 				}
 
 	#logo {
@@ -2072,15 +2072,30 @@
 		#nav ul li a {
 			display: block;
 			padding: 0.5em 1.5em 0.5em 1.5em;
-			color: rgba(255, 255, 255, 0.5);
 			text-decoration: none;
 			outline: 0;
 			border: 0;
-			-moz-transition: none;
-			-webkit-transition: none;
-			-ms-transition: none;
-			transition: none;
+      color: #41484c;
+      -moz-transition: color 0.35s ease-in-out;
+      -webkit-transition: color 0.35s ease-in-out;
+      -ms-transition: color 0.35s ease-in-out;
+      transition: color 0.35s ease-in-out;
 		}
+		#nav ul li a span:before {
+      color: #41484c;
+      -moz-transition: color 0.35s ease-in-out;
+      -webkit-transition: color 0.35s ease-in-out;
+      -ms-transition: color 0.35s ease-in-out;
+      transition: color 0.35s ease-in-out;
+		}
+
+		#nav ul li a:hover {
+			color: #FFF;
+      background-color: rgba(0, 0, 0, 0.15);
+    }
+		#nav ul li a:hover span:before {
+			color: #FFFF66;
+    }
 
 			#nav ul li a span {
 				position: relative;
