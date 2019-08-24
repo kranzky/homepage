@@ -1694,6 +1694,13 @@
 			margin-bottom: 0;
 		}
 
+  article {
+    transition: transform .2s;
+  }
+  article:hover {
+    transform: scale(1.1);
+  }
+
 /* Image */
 
 	.image {
