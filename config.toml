@@ -41,10 +41,30 @@ theme = "prologue"
   url = "https://github.com/kranzky/megahal"
 
 [[params.projects2]]
+  title = "Corona"
+  alt = "Charts, SVG badges, CSV export and JSON API for the Johns Hopkins CSSE Coronavirus / COVID-19 dataset."
+  source = "img/portfolio/corona.png"
+  url = "https://github.com/kranzky/corona"
+
+[[params.projects3]]
   title = "hackTILE"
   alt = "A cellular automata game engine."
   source = "img/portfolio/hacktile.gif"
   url = "https://github.com/kranzky/hacktile"
+
+# row 2
+
+[[params.projects1]]
+  title = "DownTown"
+  alt = "Browser for the MarkDown web."
+  source = "img/portfolio/downtown.png"
+  url = "https://github.com/kranzky/downtown"
+
+[[params.projects2]]
+  title = "Ballsup!"
+  alt = "So many balls!"
+  source = "img/portfolio/ballsup.png"
+  url = "https://github.com/kranzky/ballsup"
 
 [[params.projects3]]
   title = "Sesame"
@@ -52,7 +72,7 @@ theme = "prologue"
   source = "img/portfolio/sesame.png"
   url = "https://github.com/kranzky/sesame-cli"
 
-# row 2
+# row 3
 
 [[params.projects1]]
   title = "Nosedive"
@@ -72,7 +92,7 @@ theme = "prologue"
   source = "img/portfolio/insoluble.png"
   url = "https://github.com/kranzky/insoluble"
 
-# row 3
+# row 4
 
 [[params.projects1]]
   title = "rnDB"
@@ -92,7 +112,7 @@ theme = "prologue"
   source = "img/portfolio/dboard.png"
   url = "https://github.com/kranzky/d_board"
 
-# row 4
+# row 5
 
 [[params.projects1]]
   title = "National Eyeball"
@@ -112,7 +132,7 @@ theme = "prologue"
   source = "img/portfolio/statistical.png"
   url = "https://statistical-me.kranzky.com"
 
-# row 5
+# row 6
 
 [[params.projects1]]
   title = "99 Sheep"
@@ -132,7 +152,7 @@ theme = "prologue"
   source = "img/portfolio/bogus_quest.png"
   url = "https://github.com/kranzky/bogus_quest"
 
-# row 6
+# row 7
 
 [[params.projects1]]
   title = "RockVomit"
@@ -152,7 +172,7 @@ theme = "prologue"
   source = "img/portfolio/browncloud.jpg"
   url = "https://github.com/kranzky/brown_cloud"
 
-# row 7
+# row 8
 
 [[params.projects1]]
   title = "Quantum Light Cycles"
@@ -172,7 +192,7 @@ theme = "prologue"
   source = "img/portfolio/sweeper.png"
   url = "https://github.com/kranzky/soduku_sweeper"
 
-# row 8
+# row 9
 
 [[params.projects1]]
   title = "Black & White"
