@@ -124,7 +124,7 @@ theme = "prologue"
   title = "FAQoverflow"
   alt = "Great answers to interesting questions about everything"
   source = "img/portfolio/faqoverflow.png"
-  url = "https://faqoverflow.kranzky.com"
+  url = "http://faqoverflow.kranzky.com"
 
 [[params.projects3]]
   title = "Statistical Me"
