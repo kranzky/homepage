@@ -5,7 +5,7 @@ theme = "prologue"
 
 [params]
   name = "Jason Hutchens"
-  description = "aka Lloyd Kranzky"
+  description = "(aka Lloyd Kranzky)"
 
 [[params.social]]
   medium = "medium"
@@ -35,10 +35,30 @@ theme = "prologue"
 # row 1
 
 [[params.projects1]]
-  title = "BLaTTiX"
-  alt = "A fast-paced retro 2.5D dual-stick arena shooter."
-  source = "img/portfolio/blattix.gif"
-  url = "https://thepunkcollective.itch.io/blattix"
+  title = "Sesame"
+  alt = "The simple password solution for everybody."
+  source = "img/portfolio/sesame.png"
+  url = "https://sesame.website"
+
+[[params.projects2]]
+  title = "MegaHAL"
+  alt = "A learning chatterbot."
+  source = "img/portfolio/megahal.png"
+  url = "https://rubygems.org/gems/megahal"
+
+[[params.projects3]]
+  title = "Canard"
+  alt = "A not-quite-proof-of-concept implementation of QDD."
+  source = "img/portfolio/canard.png"
+  url = "https://blog.kranzky.com/tdd-is-canard-tell-it-to-the-duck-207b1d574f23"
+
+# row 2
+
+[[params.projects1]]
+  title = "Corona"
+  alt = "Charts, SVG badges, CSV export and JSON API for the Johns Hopkins CSSE Coronavirus / COVID-19 dataset."
+  source = "img/portfolio/corona.png"
+  url = "https://corona.kranzky.com/"
 
 [[params.projects2]]
   title = "Le Word Bot"
@@ -47,118 +67,99 @@ theme = "prologue"
   url = "https://twitter.com/lewordbot"
 
 [[params.projects3]]
+  title = "rnDB"
+  alt = "A procedurally generated database of everyday things."
+  source = "img/portfolio/rndb.png"
+  url = "https://blog.kranzky.com/the-case-of-the-fake-database-7bde487213a3"
+
+# row 3
+
+
+[[params.projects1]]
   title = "Gravitas"
   alt = "A local multiplayer 'cave flyer' party game"
   source = "img/portfolio/gravitas.png"
   url = "https://thepunkcollective.itch.io/gravitas"
 
-# row 2
-
-[[params.projects1]]
-  title = "Corona"
-  alt = "Charts, SVG badges, CSV export and JSON API for the Johns Hopkins CSSE Coronavirus / COVID-19 dataset."
-  source = "img/portfolio/corona.png"
-  url = "https://github.com/kranzky/corona"
-
 [[params.projects2]]
-  title = "MegaHAL"
-  alt = "A learning chatterbot."
-  source = "img/portfolio/megahal.png"
-  url = "https://github.com/kranzky/megahal"
-
-[[params.projects3]]
-  title = "Sesame"
-  alt = "A simple password manager for the command-line."
-  source = "img/portfolio/sesame.png"
-  url = "https://github.com/kranzky/sesame-cli"
-
-# row 3
-
-[[params.projects1]]
-  title = "Nosedive"
-  alt = "Use your black mirror to rate all the things."
-  source = "img/portfolio/nosedive.png"
-  url = "https://github.com/kranzky/nosedive"
-
-[[params.projects2]]
-  title = "Aruma Room"
-  alt = "Control light and music with your hands."
-  source = "img/portfolio/arumaroom.png"
-  url = "https://github.com/kranzky/arumaroom"
-
-[[params.projects3]]
   title = "Insoluble"
   alt = "A machine-generated novel for NaNoGenMo."
   source = "img/portfolio/insoluble.png"
-  url = "https://github.com/kranzky/insoluble"
-
-# row 4
-
-[[params.projects1]]
-  title = "rnDB"
-  alt = "A procedurally generated database of everyday things."
-  source = "img/portfolio/rndb.png"
-  url = "https://github.com/kranzky/rndb"
-
-[[params.projects2]]
-  title = "Canard"
-  alt = "A not-quite-proof-of-concept implementation of QDD."
-  source = "img/portfolio/canard.png"
-  url = "https://github.com/kranzky/canard"
+  url = "https://github.com/kranzky/insoluble/blob/master/README.md"
 
 [[params.projects3]]
-  title = "d-Board"
-  alt = "A novel text input method for use with game controllers."
-  source = "img/portfolio/dboard.png"
-  url = "https://github.com/kranzky/d_board"
-
-# row 5
-
-[[params.projects1]]
-  title = "National Eyeball"
-  alt = "An Australia-wide visualisation of government data."
-  source = "img/portfolio/eyeball.png"
-  url = "https://github.com/kranzky/national_eyeball"
-
-[[params.projects2]]
   title = "FAQoverflow"
   alt = "Great answers to interesting questions about everything"
   source = "img/portfolio/faqoverflow.png"
   url = "http://faqoverflow.kranzky.com"
 
-[[params.projects3]]
+# row 4
+
+[[params.projects1]]
   title = "Statistical Me"
   alt = "Discover how unique you really are."
   source = "img/portfolio/statistical.png"
   url = "https://statistical-me.kranzky.com"
 
-# row 6
+[[params.projects2]]
+  title = "d-Board"
+  alt = "A novel text input method for use with game controllers."
+  source = "img/portfolio/dboard.png"
+  url = "https://www.youtube.com/watch?v=Do0fUWME0Mw"
+
+[[params.projects3]]
+  title = "BLaTTiX"
+  alt = "A fast-paced retro 2.5D dual-stick arena shooter."
+  source = "img/portfolio/blattix.gif"
+  url = "https://thepunkcollective.itch.io/blattix"
+
+# row 5
 
 [[params.projects1]]
   title = "hackTILE"
   alt = "A cellular automata game engine."
   source = "img/portfolio/hacktile.gif"
-  url = "https://github.com/kranzky/hacktile"
+  url = "https://www.youtube.com/watch?v=uxfEw5C3R18"
 
 [[params.projects2]]
   title = "Laggy Dash"
   alt = "A massively single-player infinite runner."
   source = "img/portfolio/laggydash.jpg"
-  url = "https://github.com/kranzky/laggy_dash"
+  url = "http://laggydash.kranzky.com/"
 
 [[params.projects3]]
-  title = "Bogus Quest"
-  alt = "A game of deception."
-  source = "img/portfolio/bogus_quest.png"
-  url = "https://github.com/kranzky/bogus_quest"
+  title = "Nosedive"
+  alt = "Use your black mirror to rate all the things."
+  source = "img/portfolio/nosedive.png"
+  url = "https://nosedive.kranzky.com/"
 
-# row 7
+# row 6
 
 [[params.projects1]]
+  title = "Aruma Room"
+  alt = "Control light and music with your hands."
+  source = "img/portfolio/arumaroom.png"
+  url = "https://github.com/kranzky/arumaroom"
+
+[[params.projects2]]
+  title = "National Eyeball"
+  alt = "An Australia-wide visualisation of government data."
+  source = "img/portfolio/eyeball.png"
+  url = "https://github.com/kranzky/national_eyeball"
+
+[[params.projects3]]
   title = "RockVomit"
   alt = "A ragdol rhythym action game made for #GGJ17."
   source = "img/portfolio/rockvomit.png"
   url = "https://github.com/rocket-hands/rockvomit"
+
+# row 7
+
+[[params.projects1]]
+  title = "Bogus Quest"
+  alt = "A game of deception."
+  source = "img/portfolio/bogus_quest.png"
+  url = "https://github.com/kranzky/bogus_quest"
 
 [[params.projects2]]
   title = "Dwarf Squad"
