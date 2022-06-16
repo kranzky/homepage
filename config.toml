@@ -10,7 +10,7 @@ theme = "prologue"
 [[params.social]]
   medium = "medium"
   icon = "medium"
-  link = "https://blog.kranzky.com"
+  link = "https://medium.com/the-magic-pantry"
 
 [[params.social]]
   medium = "github"
@@ -50,7 +50,7 @@ theme = "prologue"
   title = "Canard"
   alt = "A not-quite-proof-of-concept implementation of QDD."
   source = "img/portfolio/canard.png"
-  url = "https://blog.kranzky.com/tdd-is-canard-tell-it-to-the-duck-207b1d574f23"
+  url = "https://medium.com/the-magic-pantry/tdd-is-canard-tell-it-to-the-duck-207b1d574f23"
 
 # row 2
 
@@ -70,7 +70,7 @@ theme = "prologue"
   title = "rnDB"
   alt = "A procedurally generated database of everyday things."
   source = "img/portfolio/rndb.png"
-  url = "https://blog.kranzky.com/the-case-of-the-fake-database-7bde487213a3"
+  url = "https://medium.com/the-magic-pantry/the-case-of-the-fake-database-7bde487213a3"
 
 # row 3
 
