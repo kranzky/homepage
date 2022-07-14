@@ -44,7 +44,7 @@ theme = "prologue"
   title = "MegaHAL"
   alt = "A learning chatterbot."
   source = "img/portfolio/megahal.png"
-  url = "https://rubygems.org/gems/megahal"
+  url = "https://megahal.kranzky.com"
 
 [[params.projects3]]
   title = "Canard"
