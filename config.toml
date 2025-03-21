@@ -212,3 +212,8 @@ theme = "prologue"
   alt = "Interzone Futebol is a massively multiplayer online game centered on futebol."
   source = "img/portfolio/interzone.png"
   url = "https://www.youtube.com/watch?v=wLFdv561Flo"
+
+[deployment]
+  [[deployment.targets]]
+    name = "production"
+    URL = "s3://www.kranzky.com?region=ap-southeast-2"
