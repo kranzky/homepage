@@ -32,6 +32,26 @@ theme = "prologue"
   icon = "youtube"
   link = "https://www.youtube.com/channel/UC5fbLdfUtTaHpL2qbQtW2rg"
 
+# row 0
+
+[[params.projects1]]
+  title = "Lazybones"
+  alt = "A cellular automata game creation tool!"
+  source = "img/portfolio/lazybones.png"
+  url = "https://thepunkcollective.itch.io/lazybones"
+
+[[params.projects2]]
+  title = "Vertext"
+  alt = "A browser for the markdown-only indie web!"
+  source = "img/portfolio/mmm.png"
+  url = "https://vertext.kranzky.com"
+
+[[params.projects3]]
+  title = "Rhyme+Reason"
+  alt = "A daily word puzzle game!"
+  source = "img/portfolio/rnr.png"
+  url = "https://rnr.kranzky.com"
+
 # row 1
 
 [[params.projects1]]
