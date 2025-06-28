@@ -49,7 +49,7 @@ theme = "prologue"
 [[params.projects3]]
   title = "Rhyme+Reason"
   alt = "A daily word puzzle game!"
-  source = "img/portfolio/rnr.png"
+  source = "img/portfolio/rnr.svg"
   url = "https://rnr.kranzky.com"
 
 # row 1
