@@ -237,3 +237,10 @@ theme = "prologue"
   [[deployment.targets]]
     name = "production"
     URL = "s3://www.kranzky.com?region=ap-southeast-2"
+
+  [[deployment.matchers]]
+    pattern = "^.+$"
+    cacheControl = "max-age=31536000, no-cache, no-store, must-revalidate"
+    gzip = true
+    force = true
+    ACL = "public-read"
