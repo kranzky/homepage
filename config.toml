@@ -35,6 +35,26 @@ theme = "prologue"
 # row 0
 
 [[params.projects1]]
+  title = "Lander"
+  alt = "A lunar lander game!"
+  source = "img/portfolio/lander.png"
+  url = "https://kranzky.itch.io/lander"
+
+[[params.projects2]]
+  title = "Mulligans"
+  alt = "A golf game!"
+  source = "img/portfolio/mulligans.png"
+  url = "https://mulligans.kranzky.com/"
+
+[[params.projects3]]
+  title = "Augmentinel"
+  alt = "An augmented reality sentinel game!"
+  source = "img/portfolio/augmentinel.png"
+  url = "https://kranzky.itch.io/augmentinel"
+
+# row 1
+
+[[params.projects1]]
   title = "Lazybones"
   alt = "A cellular automata game creation tool!"
   source = "img/portfolio/lazybones.png"
@@ -52,7 +72,7 @@ theme = "prologue"
   source = "img/portfolio/rnr.svg"
   url = "https://rnr.kranzky.com"
 
-# row 1
+# row 2
 
 [[params.projects1]]
   title = "Sesame"
@@ -72,7 +92,7 @@ theme = "prologue"
   source = "img/portfolio/canard.png"
   url = "https://medium.com/the-magic-pantry/tdd-is-canard-tell-it-to-the-duck-207b1d574f23"
 
-# row 2
+# row 3
 
 [[params.projects1]]
   title = "Corona"
@@ -92,8 +112,7 @@ theme = "prologue"
   source = "img/portfolio/rndb.png"
   url = "https://medium.com/the-magic-pantry/the-case-of-the-fake-database-7bde487213a3"
 
-# row 3
-
+# row 4
 
 [[params.projects1]]
   title = "Gravitas"
@@ -113,7 +132,7 @@ theme = "prologue"
   source = "img/portfolio/faqoverflow.png"
   url = "http://faqoverflow.kranzky.com"
 
-# row 4
+# row 5
 
 [[params.projects1]]
   title = "Statistical Me"
@@ -133,7 +152,7 @@ theme = "prologue"
   source = "img/portfolio/blattix.gif"
   url = "https://thepunkcollective.itch.io/blattix"
 
-# row 5
+# row 6
 
 [[params.projects1]]
   title = "hackTILE"
@@ -153,7 +172,7 @@ theme = "prologue"
   source = "img/portfolio/nosedive.png"
   url = "https://nosedive.kranzky.com/"
 
-# row 6
+# row 7
 
 [[params.projects1]]
   title = "Aruma Room"
@@ -173,7 +192,7 @@ theme = "prologue"
   source = "img/portfolio/rockvomit.png"
   url = "https://github.com/rocket-hands/rockvomit"
 
-# row 7
+# row 8
 
 [[params.projects1]]
   title = "Bogus Quest"
@@ -193,7 +212,7 @@ theme = "prologue"
   source = "img/portfolio/browncloud.jpg"
   url = "https://github.com/kranzky/brown_cloud"
 
-# row 8
+# row 9
 
 [[params.projects1]]
   title = "Quantum Light Cycles"
@@ -213,7 +232,7 @@ theme = "prologue"
   source = "img/portfolio/sweeper.png"
   url = "https://github.com/kranzky/soduku_sweeper"
 
-# row 9
+# row 10
 
 [[params.projects1]]
   title = "Black & White"
